@@ -1,0 +1,118 @@
+.App{   
+    background-image: url(https://img3.goodfon.ru/wallpaper/nbig/f/52/new-york-nyu-york-vysota.jpg);
+    height: 750px;
+    background-size: cover;
+}
+.input{
+    display: flex;
+}
+.inp{
+    width: 85%;
+    height: 60px;
+    color: rgba(0, 60, 255, 0.808);
+    border: 1px solid wheat;
+    border-radius: 10px 0px 0pc 10px;
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    font-size: 30px;
+
+}
+.btn{
+    width: 15%;
+    height: 61px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(0, 60, 255, 0.247);
+}
+.btn:hover{
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.card{
+    margin-top: 50px;
+    width: 300px;
+    height: 280px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 60, 255, 0.808);
+    border: 1px solid wheat;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.card img{
+    width: 100px;
+}
+.maininfo{
+    text-align: center;
+}
+.information{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.cardlist{
+    display: flex;
+    justify-content: space-around;
+}
+.mailer{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+}
+.mail{
+    width: 100%;
+    text-align: center;
+}
+.mailer textarea{
+    background-color: rgba(21, 43, 114, 0.61);
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.mailer input{
+    background-color: rgba(21, 43, 114, 0.61);
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+}
+.mail .inp2{
+    color: rgba(0, 60, 255, 0.808);
+    border: 1px solid wheat;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.856);
+    height: 30px;
+    width: 50px;
+}
+
+.img{
+    height: 350px;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+.mail label{
+    color: rgba(0, 183, 255, 0.808);
+    background-color: rgba(0, 0, 0, 0.63);
+    margin-left: 45px;
+    border-radius: 5px;
+}
+a{
+    font-size: 30px;
+    color: black;
+}
+a:active{
+    color: blue;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
